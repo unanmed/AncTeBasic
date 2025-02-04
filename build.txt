@@ -1,0 +1,3 @@
+displayName = AncTe&#39;s Basic Mod
+author = AncTe
+version = 0.1
