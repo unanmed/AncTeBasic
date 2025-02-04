@@ -1,0 +1,33 @@
+Buffs: {
+	SpikeImmuneBuff: {
+		DisplayName: 免疫尖刺
+		Description: 你终于不用担心被尖刺伤到了
+	}
+
+	BlazingWheelImmuneBuff: {
+		DisplayName: 免疫烈焰火轮
+		Description: 就你小子喜欢转是吧
+	}
+
+	SpikeBallImmuneBuff: {
+		DisplayName: 免疫尖刺球
+		Description: 大胆去探地牢吧
+	}
+}
+
+Items: {
+	SpikeImmunePotion: {
+		DisplayName: 尖刺免疫药水
+		Tooltip: 免疫尖刺伤害，不会免疫尖刺造成的流血减益
+	}
+
+	BlazingWheelImmunePotion: {
+		DisplayName: 火轮免疫药水
+		Tooltip: 免疫地牢的烈焰火轮
+	}
+
+	SpikeBallImmunePotion: {
+		DisplayName: 尖刺球免疫药水
+		Tooltip: 免疫地牢里面会转的尖刺球
+	}
+}

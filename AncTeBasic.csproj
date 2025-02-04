@@ -7,10 +7,14 @@
 	<PropertyGroup>
 		
 	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="Content\Buffs\BlazingWheelImmuneBuff.png" />
+	  <None Remove="Content\Buffs\SpikeBallImmuneBuff.png" />
+	  <None Remove="Content\Items\Potions\BlazingWheelImmunePotion.png" />
+	  <None Remove="Content\Items\Potions\SpikeBallImmunePotion.png" />
+	  <None Remove="localization\zh-CN_Mods.AncTeBasic.hjson" />
+	</ItemGroup>
 
 	<!-- References -->
-	<ItemGroup>
-		
-	</ItemGroup>
 
 </Project>

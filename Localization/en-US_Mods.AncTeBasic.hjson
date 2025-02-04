@@ -1,2 +1,36 @@
-# This file will automatically update with entries for new content after a build and reload.
+Buffs: {
+	SpikeImmuneBuff: {
+		DisplayName: Spike Immunity
+		Description: You no longer have to worry about getting hurt by spikes.
+	}
 
+	BlazingWheelImmuneBuff: {
+		DisplayName: Blazing Wheel Immunity
+		Description: So you like spinning, huh?
+	}
+
+	SpikeBallImmuneBuff: {
+		DisplayName: Spike Ball Immunity
+		Description: Explore the dungeon boldly!
+	}
+}
+
+Items: {
+	SpikeImmunePotion: {
+		DisplayName: Spike Immunity Potion
+		Tooltip: '''
+			Grants immunity to spike damage,
+			but does not prevent bleeding debuffs caused by spikes.
+		'''
+	}
+
+	BlazingWheelImmunePotion: {
+		DisplayName: Blazing Wheel Immunity Potion
+		Tooltip: Grants immunity to the Blazing Wheels in the dungeon.
+	}
+
+	SpikeBallImmunePotion: {
+		DisplayName: Spike Ball Immunity Potion
+		Tooltip: Grants immunity to the spinning spike balls in the dungeon.
+	}
+}
