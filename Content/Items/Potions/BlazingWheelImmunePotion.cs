@@ -39,7 +39,12 @@ public class BlazingWheelImmunePotion : ModItem
 
     public override void AddRecipes()
     {
-        base.AddRecipes();
+        CreateRecipe()
+            .AddIngredient(ItemID.BottledWater, 1)
+            .AddIngredient(ItemID.Fireblossom, 1)
+            .AddIngredient(ItemID.LavaBucket, 1)
+            .AddTile(TileID.Bottles)
+            .Register();
     }
 }
 

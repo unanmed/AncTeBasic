@@ -18,10 +18,11 @@ Buffs: {
 Items: {
 	SpikeImmunePotion: {
 		DisplayName: Spike Immunity Potion
-		Tooltip: '''
+		Tooltip:
+			'''
 			Grants immunity to spike damage,
 			but does not prevent bleeding debuffs caused by spikes.
-		'''
+			'''
 	}
 
 	BlazingWheelImmunePotion: {

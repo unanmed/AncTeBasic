@@ -39,7 +39,12 @@ public class SpikeBallImmunePotion : ModItem
 
     public override void AddRecipes()
     {
-        base.AddRecipes();
+        CreateRecipe()
+            .AddIngredient(ItemID.BottledWater, 1)
+            .AddIngredient(ItemID.Moonglow, 1)
+            .AddIngredient(ItemID.Spike, 2)
+            .AddTile(TileID.Bottles)
+            .Register();
     }
 }
 
